@@ -1,5 +1,11 @@
 package com.rb.test;
 
-public class Test {
+import com.rb.beans.Utility;
 
+public class Test {
+	
+	public static void main(String[] args) {
+		Utility u = new Utility();
+		System.out.println(u.getByDate());
+	}
 }
